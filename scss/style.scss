@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// --------------
+// media query detail 
+// 1. tab break point 768
+// ---------------
+// main color 
+$primaryColor: #0088CC;
+$secondaryColor: #222529;
+// text colors
+$primaryTextColor: #1d1d1d;
+$secondaryTextColor: #ffffff;
+// lavbels color
+$cartCountColor: #FF5B5B;
+$manueLabel: #EB2771;
+$discountLabel: #E27C7C;
+// -----------------------------------
+// top header classes
+.jfm_top_header {
+    background-color: $primaryColor;
+}
+
+.jfm_top_header_items {
+    display: flex;
+}
+
+// contact area
+.jfm_top_header_left {
+    color: $secondaryTextColor;
+    display: flex;
+    padding: 10px 0px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+}
+
+// manue area
+.jfm_top_header_right {
+    color: $secondaryTextColor;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    width: 70%;
+}
+
+.jfm_right_manue {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+
+.jfm_right_social {
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    border-left: 1px solid $secondaryTextColor;
+}
+
+// bottom header
+.jfm_bottom_header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.jfm_bottom_header_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jfm_bottom_header_logo>img {
+    height: 50px;
+}
+
+.jfm_bottom_header_search {
+    width: 50%;
+}
+
+.jfm_bottom_header_functional {
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+}
