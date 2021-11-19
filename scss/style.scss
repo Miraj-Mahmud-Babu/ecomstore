@@ -95,7 +95,8 @@ $discountLabel: #E27C7C;
 
 .jfm_bottom_header_search_input {
     margin: 0 10px;
-    border: none;
+    border: 1px solid $primaryColor;
+    outline: none;
 }
 
 .jfm_bottom_header_functional {

@@ -114,7 +114,8 @@
 
 .jfm_bottom_header_search_input {
   margin: 0 10px;
-  border: none;
+  border: 1px solid #0088CC;
+  outline: none;
 }
 
 .jfm_bottom_header_functional {
