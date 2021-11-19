@@ -16,6 +16,7 @@ $secondaryColor: #222529;
 // text colors
 $primaryTextColor: #1d1d1d;
 $secondaryTextColor: #ffffff;
+$footerTextColor: gray;
 // lavbels color
 $cartCountColor: #FF5B5B;
 $manueLabel: #EB2771;
@@ -30,7 +31,7 @@ $discountLabel: #E27C7C;
     display: flex;
 }
 
-// contact area
+// contact area 
 .jfm_top_header_left {
     color: $secondaryTextColor;
     display: flex;
@@ -88,4 +89,44 @@ $discountLabel: #E27C7C;
     display: flex;
     width: 15%;
     justify-content: space-evenly;
+}
+
+// footer area main css
+.jfm_footer {
+    background-color: $secondaryColor;
+}
+
+.jfm_footer_title {
+    color: $secondaryTextColor;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.jfm_footer_logo_image {
+    max-width: 104px;
+    max-height: 40px;
+    margin-bottom: 20px;
+}
+
+.jfm_footer_text {
+    color: $footerTextColor;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.jfm_footer_read_more {
+    color: $secondaryTextColor;
+    line-height: 4;
+}
+
+// 2nd column
+.jfm_footer_secondary_title {
+    color: $secondaryTextColor;
+    font-size: 14px;
+}
+
+.jfm_footer_copyright {
+    color: $footerTextColor;
+    font-size: 13px;
+    border-top: 1px solid $footerTextColor;
 }
