@@ -130,3 +130,35 @@ $discountLabel: #E27C7C;
     font-size: 13px;
     border-top: 1px solid $footerTextColor;
 }
+
+.jfm_footer_link {
+    color: $footerTextColor;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.jfm_footer_link:hover {
+    color: $secondaryTextColor;
+    transition: 0.3s;
+}
+
+.jfm_footer_tags {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.jfm_footer_tag {
+    color: $footerTextColor;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 2px 7px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    transition: 0.3s;
+}
+
+.jfm_footer_tag:hover {
+    color: $secondaryTextColor;
+    transition: 0.3s;
+}
