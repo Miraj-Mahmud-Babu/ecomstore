@@ -98,6 +98,25 @@
   width: 50%;
 }
 
+.jfm_bottom_header_search_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0088CC;
+  border-radius: 50px;
+}
+
+.jfm_bottom_header_search_input {
+  margin: 0 10px;
+  border: none;
+}
+
 .jfm_bottom_header_functional {
   display: -webkit-box;
   display: -ms-flexbox;
