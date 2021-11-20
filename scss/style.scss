@@ -57,6 +57,7 @@ $discountLabel: #E27C7C;
     display: flex;
     width: 85%;
     justify-content: flex-end;
+    padding: 0 20px;
 }
 
 .jfm_right_manue_items {
@@ -187,10 +188,20 @@ $discountLabel: #E27C7C;
 
 // media quiries 991px
 @media screen and (max-width: 991px) {
+    .jfm_top_header_left {
+        width: 50%;
+    }
     .jfm_right_manue {
         display: none;
     }
     .jfm_top_header_right {
         justify-content: flex-end;
+        width: 50%;
+    }
+    .jfm_right_social {
+        display: flex;
+        width: 100px;
+        justify-content: space-evenly;
+        border-left: none;
     }
 }
