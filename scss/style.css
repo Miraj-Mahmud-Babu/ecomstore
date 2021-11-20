@@ -64,6 +64,7 @@
 
 .jfm_right_manue_items {
   padding: 0px 7px;
+  font-size: 11px;
 }
 
 .jfm_right_social {
@@ -218,7 +219,7 @@
   border: 1px solid white;
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
   .jfm_top_header_left {
     width: 50%;
   }
