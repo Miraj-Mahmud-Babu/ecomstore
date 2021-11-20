@@ -47,7 +47,7 @@ $discountLabel: #E27C7C;
 .jfm_top_header_right {
     color: $secondaryTextColor;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     width: 30%;
     width: 83%;
@@ -67,9 +67,22 @@ $discountLabel: #E27C7C;
 
 .jfm_right_social {
     display: flex;
-    width: 15%;
+    width: 110px;
     justify-content: space-evenly;
-    border-left: 1px solid $secondaryTextColor;
+    border-left: 1px solid rgba(255, 255, 255, 0.562);
+}
+
+.jfm_right_social_items {
+    width: 27px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jfm_right_social_items:hover {
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
 // bottom header
@@ -201,7 +214,6 @@ $discountLabel: #E27C7C;
     }
     .jfm_right_social {
         display: flex;
-        width: 100px;
         justify-content: space-evenly;
         border-left: none;
     }
