@@ -130,7 +130,7 @@ $discountLabel: #E27C7C;
 .jfm_footer_text {
     color: $footerTextColor;
     margin-bottom: 20px;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .jfm_footer_read_more {
@@ -141,7 +141,7 @@ $discountLabel: #E27C7C;
 // 2nd column
 .jfm_footer_secondary_title {
     color: $secondaryTextColor;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .jfm_footer_copyright {
@@ -154,6 +154,7 @@ $discountLabel: #E27C7C;
     color: $footerTextColor;
     text-decoration: none;
     transition: 0.3s;
+    font-size: 13px;
 }
 
 .jfm_footer_link:hover {
@@ -170,16 +171,18 @@ $discountLabel: #E27C7C;
 .jfm_footer_tag {
     color: $footerTextColor;
     text-decoration: none;
-    border: 1px solid;
+    border: 1px solid rgb(66, 66, 66);
     padding: 2px 7px;
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-right: 8px;
     transition: 0.3s;
+    font-size: 11px;
 }
 
 .jfm_footer_tag:hover {
     color: $secondaryTextColor;
     transition: 0.3s;
+    border: 1px solid rgb(255, 255, 255);
 }
 
 // media quiries 991px

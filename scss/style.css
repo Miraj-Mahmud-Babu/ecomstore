@@ -154,7 +154,7 @@
 .jfm_footer_text {
   color: gray;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .jfm_footer_read_more {
@@ -164,7 +164,7 @@
 
 .jfm_footer_secondary_title {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .jfm_footer_copyright {
@@ -178,6 +178,7 @@
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-size: 13px;
 }
 
 .jfm_footer_link:hover {
@@ -200,18 +201,20 @@
 .jfm_footer_tag {
   color: gray;
   text-decoration: none;
-  border: 1px solid;
+  border: 1px solid #424242;
   padding: 2px 7px;
-  margin-bottom: 5px;
-  margin-right: 5px;
+  margin-bottom: 8px;
+  margin-right: 8px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-size: 11px;
 }
 
 .jfm_footer_tag:hover {
   color: #ffffff;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border: 1px solid white;
 }
 
 @media screen and (max-width: 991px) {
