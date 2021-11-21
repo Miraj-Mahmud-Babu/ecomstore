@@ -238,6 +238,57 @@
   border: 1px solid white;
 }
 
+.jfm_hero_categories {
+  border: 1px solid #ececec;
+}
+
+.jfm_hero_categories_title {
+  padding: 14px 22px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #1d1d1d;
+  border-bottom: none;
+  background: #f5f5f5;
+  margin: 0;
+  font-weight: 700;
+}
+
+.jfm_hero_categories_item {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 14px 22px;
+  color: #222529;
+  border-bottom: none;
+  border-top: 1px solid #ececec;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jfm_hero_categories_item:hover {
+  background-color: #0088CC;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.jfm_hero_categories_item_active {
+  background-color: #0088CC;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.jfm_hero_slider_image {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .jfm_top_header_left {
     width: 50%;
