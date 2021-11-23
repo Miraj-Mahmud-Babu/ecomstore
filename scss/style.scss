@@ -21,6 +21,10 @@ $footerTextColor: gray;
 $cartCountColor: #FF5B5B;
 $manueLabel: #EB2771;
 $discountLabel: #E27C7C;
+// border color
+$borderColorCategories: rgb(236, 236, 236);
+// icons color
+$iconPrimaryColor: rgb(53, 53, 53);
 // -----------------------------------
 // top header classes
 .jfm_top_header {
@@ -201,7 +205,8 @@ $discountLabel: #E27C7C;
 }
 
 //  first section end  (category and slider) 
-$borderColorCategories: rgb(236, 236, 236);
+.jfm_hero {}
+
 .jfm_hero_categories {
     border: 1px solid $borderColorCategories;
     // max-width: 270px;
@@ -223,7 +228,7 @@ $borderColorCategories: rgb(236, 236, 236);
     font-weight: 500;
     padding: 14px 22px;
     // line-height: 18px;
-    color: $secondaryColor;
+    color: $footerTextColor;
     border-bottom: none;
     border-top: 1px solid $borderColorCategories;
     transition: 0.3s;
@@ -243,6 +248,7 @@ $borderColorCategories: rgb(236, 236, 236);
     transition: 0.3s;
 }
 
+// slider
 .jfm_hero_slider {
     // height: 100%;
 }
@@ -252,7 +258,57 @@ $borderColorCategories: rgb(236, 236, 236);
     height: 100%;
 }
 
-// slider
+// delevery
+.jfm_delevery {
+    // height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jfm_delevery_items {
+    // display: flex;
+    // align-items: center;
+    padding: 15px 0;
+    border: 1px solid $borderColorCategories;
+}
+
+.jfm_delevery_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $iconPrimaryColor;
+}
+
+.jfm_delevery_item_border {
+    border-left: 1px solid $borderColorCategories;
+    border-right: 1px solid $borderColorCategories;
+}
+
+.jfm_delevery_item_logo {
+    font-size: 40px;
+    padding: 0 20px;
+}
+
+.jfm_delevery_item_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.jfm_delevery_item_content>h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.jfm_delevery_item_content>p {
+    margin: 0;
+    padding: 0;
+    color: $footerTextColor;
+    font-weight: 300;
+}
+
 // media quiries 991px
 @media screen and (max-width: 768px) {
     .jfm_top_header_left {
@@ -269,5 +325,11 @@ $borderColorCategories: rgb(236, 236, 236);
         display: flex;
         justify-content: space-evenly;
         border-left: none;
+    }
+    .jfm_delevery_item {
+        justify-content: start;
+    }
+    .jfm_delevery_item_logo {
+        width: 80px;
     }
 }
